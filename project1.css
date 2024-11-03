@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    color:black;
+    font-family:' Verdana', Geneva, Tahoma;
+}
+header {
+        position:absolute;
+        left:25%;
+        right:4%;
+        top:10%;
+        height: 30px;
+        background-color:lightgreen  
+      }
+    
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    font-family:'monospace';
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    margin: 5px;
+   }
+   #intro {
+    font-size: 2em;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 7s steps(30, end) infinite, blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+    0% { width: 0; }
+    50% { width: 20%; }
+    100% { width: 0; } 
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+#imgs{
+    position:relative;
+    left: 1px;
+}
+.images{
+    opacity: 0.85;
+    border-radius: 10%;
+
+}
+section{
+    color:black;;
+    padding: 20px;
+}
+.skill_table {
+    border-collapse: collapse;
+}
+.cell {
+   margin: 10px;
+}
+.skill_table td {
+    padding: 100px;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+
+}
+
+#skilltable tr td li:hover{
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 5px lightgreen ;
+    letter-spacing: 0.2rem;
+    transform: scale(1.1);
+}
+.project:hover{
+    box-shadow: 0 2px 5px  lightgreen;
+  
+    
+}
+.project img{
+    height: 30%;
+    width: 50%;
+}
+
+.contact_logo img{
+    height:80px;
+    width: 80px;
+    color:lightgreen;
+}
+.contact_logo img:hover{
+    transform: scale(1.1);
+}
+button{
+    color: rgb(5, 2, 2);
+   background:  lightgreen;
+   border-radius: 10px;
+   
+}
+button:hover{
+   box-shadow: 0 0 30px  lightgreen;
+    letter-spacing: 0.2rem;
+    transform: scale(1.1);
+    background-color: rgb(8, 10, 12);
+    color:  lightgreen;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #090f16;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+#linkedin{
+    text-decoration: none;
+    color: #090f16;
+}
